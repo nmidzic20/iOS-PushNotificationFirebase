@@ -53,6 +53,7 @@
 		E40BFE44292BA98C0021C0D9 /* PushNotificationFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationFirebaseUITests.swift; sourceTree = "<group>"; };
 		E40BFE46292BA98C0021C0D9 /* PushNotificationFirebaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationFirebaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E40BFE53292BAB010021C0D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E4769A21292CE0CA0030B580 /* PushNotificationFirebase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushNotificationFirebase.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +106,7 @@
 		E40BFE22292BA98B0021C0D9 /* PushNotificationFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				E4769A21292CE0CA0030B580 /* PushNotificationFirebase.entitlements */,
 				E40BFE23292BA98B0021C0D9 /* AppDelegate.swift */,
 				E40BFE25292BA98B0021C0D9 /* SceneDelegate.swift */,
 				E40BFE27292BA98B0021C0D9 /* ViewController.swift */,
@@ -450,9 +452,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PushNotificationFirebase/PushNotificationFirebase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4DH3N86F88;
+				DEVELOPMENT_TEAM = VWTKFK37E8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PushNotificationFirebase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -465,7 +468,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hr.foi.nmidzic20.PushNotificationFirebase;
+				PRODUCT_BUNDLE_IDENTIFIER = hr.foi.nmidzic20.PushNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -478,9 +481,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PushNotificationFirebase/PushNotificationFirebase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4DH3N86F88;
+				DEVELOPMENT_TEAM = VWTKFK37E8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PushNotificationFirebase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -493,7 +497,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hr.foi.nmidzic20.PushNotificationFirebase;
+				PRODUCT_BUNDLE_IDENTIFIER = hr.foi.nmidzic20.PushNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
